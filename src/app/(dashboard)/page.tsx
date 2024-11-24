@@ -18,6 +18,10 @@ export default function FriendsPage() {
         <Button>Find Friends</Button>
       </header>
       <div className="flex-1 flex divide-x">
+        <TooltipProvider>
+          <PendingFriendsList />
+          <AcceptedFriendsList />
+          
         </TooltipProvider>
       </div>
     </div>
