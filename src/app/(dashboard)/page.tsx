@@ -4,4 +4,19 @@ import {
   AcceptedFriendsList,
   PendingFriendsList,
 } from "./_components/friends-list";
-        </TooltipProvid
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { AddFriend } from "./_components/add-friend";
+
+export default function FriendsPage() {
+  return (
+    <div className="flex-1 flex-col flex divide-y">
+      <header className="flex items-center justify-between p-4">
+        {/* Code comment */}
+        {/* other suggestions *\
+
+        <h1 className="text-2xl font-semibold">Friends</h1>
+        </TooltipProvider>
+      </div>
+    </div>
+  );
+}
