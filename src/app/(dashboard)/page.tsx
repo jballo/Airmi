@@ -16,7 +16,7 @@ export default function FriendsPage() {
         <h1 className="font-semibold">Friends</h1>
         <AddFriend />
       </header>
-      <div className="grid p-4 gap-4">
+      <div className="grid p-4 gap-4" jjhjljkl>
         <TooltipProvider delayDuration={0}>
           <PendingFriendsList />
           <AcceptedFriendsList />
