@@ -4,8 +4,4 @@ import {
   AcceptedFriendsList,
   PendingFriendsList,
 } from "./_components/friends-list";
-        </TooltipProvider>
-      </div>
-    </div>
-  );
-}
+        </TooltipProvid
