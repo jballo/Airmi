@@ -12,14 +12,7 @@ export default function FriendsPage() {
     <div className="flex-1 flex-col flex divide-y">
       <header className="flex items-center justify-between p-4">
         {/* Code comment */}
-        {/* other suggestions */}
-        <h1 className="font-semibold">Friends</h1>
-        <AddFriend />
-      </header>
-      <div className="grid p-4 gap-4" jjhjljkl>
-        <TooltipProvider delayDuration={0}>
-          <PendingFriendsList />
-          <AcceptedFriendsList />
+        {/* other suggestions *\
         </TooltipProvider>
       </div>
     </div>
