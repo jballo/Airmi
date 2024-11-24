@@ -21,6 +21,9 @@ export default function FriendsPage() {
         <TooltipProvider>
           <PendingFriendsList />
           <AcceptedFriendsList />
+
+          <AddFriend />
+          
           
         </TooltipProvider>
       </div>
