@@ -16,8 +16,6 @@ export default function DashboardLayout({
           <DashboardSidebar />
           {children}
         </SidebarProvider>
-      <Unauthenticated>
-        <RedirectToSignIn />
       </Unauthenticated>
     </>
   );
