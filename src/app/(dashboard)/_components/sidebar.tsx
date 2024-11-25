@@ -45,6 +45,7 @@ export function DashboardSidebar() {
                 <SidebarMenuButton asChild isActive={pathname === "/"}>
                   <Link href="/">
                     <User2Icon />
+                    
                     Friends
                   </Link>
                 </SidebarMenuButton>
